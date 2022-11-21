@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    height: 50px;
+    background-color: #484848;
+    color: #c8c8c8;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+nav li{
+ padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: orange
+}
+
+a:hover{
+    color: #8961b5;
+}
+section{
+    min-height: 480px;
+    background-color: #484848;
+    color:orange;
+    padding: 10px;
+    border: 2px dotted #8961b5
+}
+
+.comando-git{
+    padding: 5px;
+    font-size: 1.25rem;
+    border: 3px solid #9920a3;
+    background-color: #c9c8c8;
+    color: #484848;
+}
+#projetos{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.projeto{
+    height: 300px;
+    width: 300px;
+    border: #9920a3 solid 2px;
+    margin:  10px;
+}
+.projeto>img{
+    width: 100%;
+}
+.labels samp{
+    color: white !important;
+    background-color: rgb(194, 91, 1);
+    border-radius: 100px;
+    padding: 2px 5px;
+}
