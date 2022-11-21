@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    scroll-padding-top:50px;
+}
+section{
+    min-height: 480px;
+    background-color:darkcyan;
+    color:orange;
+    padding:10px;
+
+}
+section:hover{
+    background:darkblue;
+    color:yellow;
+}
+.comando-gift{
+  padding: 5px;
+  font-size:1.25rem;
+  border:3px solid #9920a3;
+  background-color:#c9c8c8;
+  color:#484848;
+}
+P{
+    padding:5px;
+}
+.conteudo{
+    margin-top:50px;
+}
+nav{
+    height: 50px;
+    background-color:#484848;
+    color: #c8c8c8;
+    display:flex;
+    align-items:center;
+    justify-content:end;
+    list-style-type:none;
+    overflow:hidden;
+    position:fixed;
+    top: 0;
+    width:100%;
+}
+.projeto{
+    height:150px;
+    width:150px;
+    border: #9920a3 solid 5px;
+    margin: 10px;
+}
+.projeto>img{
+    width:100%;
+}
+.labels span{
+    color:white;
+    background-color: rgb(194,91,1);
+    border: radius 100px;
+    padding:2px 5px;
+}
+marquee{
+    color:red;
+}
